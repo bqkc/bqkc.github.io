@@ -1,4 +1,4 @@
-permalink: "/:categories/:year/:month/:day/:title/"
+permalink: "/:title/"
 title: "Chu"
 url: "http://bqkc.github.io"
 feed: "/feed.xml"
