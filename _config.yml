@@ -1,0 +1,15 @@
+permalink: "/:categories/:year/:month/:day/:title/"
+title: "Chu"
+url: "http://bqkc.github.io"
+feed: "/feed.xml"
+author:
+    name: "Chu"
+    key: "**"
+description: "无所谓"
+copyright: "Copyright Chu 2016 by GitHub and Jekyll"
+headdesc: "Chu"
+headkeys: "thinks"
+
+redcarpet:
+    extensions:
+        - "fenced_code_blocks"

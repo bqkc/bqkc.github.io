@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<HEAD>
+  <title>{{ site.title }}|{{ site.description }}</title>
+  {% include header.html %}
+  <meta content="{{ site.headdesc }}" name="description"/>
+  <meta content="{{ site.headkeys }}" name="keywords"/>
+</HEAD>
+<body>
+
+<div class="container">
+
+{% include banner.html %}
+
+<div class="main clearfix">
+{{ content }}
+</div>
+</div>
+
+{% include footer.html %}
+</body>
+</html>
+
