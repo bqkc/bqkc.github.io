@@ -3,7 +3,7 @@ layout:  page
 title: tags
 description: 标记
 ---
-> 人生若只如初见 <span style="float:right"><a href="/">↰</a></span>
+> 人生若只如初见 <span style="float:right"><a href="/">☊</a></span>
 
 <div class="tagcloud">
 {% for tag in site.tags %}
