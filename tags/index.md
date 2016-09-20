@@ -1,9 +1,9 @@
 ---
 layout:  page
-title: tags
+title: 
 description: 标记
 ---
-> 人生若只如初见 <span style="float:right"><a href="/">☊</a></span>
+这个破碎的世界
 
 <div class="tagcloud">
 {% for tag in site.tags %}
