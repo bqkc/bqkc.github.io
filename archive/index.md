@@ -11,6 +11,9 @@ description: 归档
     {% assign year = y %}
     <li class="year">{{ y }}</li>
   {% endif %}
+  <p align=right>
+    <a href="/" >↰</a>
+  </p>
   <li class="item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
