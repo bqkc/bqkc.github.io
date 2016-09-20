@@ -5,7 +5,7 @@ description: 归档
 ---
 
 
-<p><span style="float:left">谁人有所谓</span><span style="float:right"><a href="/">↰</a></span></p>
+谁人有所谓<span style="float:right"><a href="/">↰</a></span>
 
 
 
