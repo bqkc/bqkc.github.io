@@ -4,11 +4,6 @@ title:
 description: 归档
 ---
 
-
-<!--> 生亦何欢，死亦何苦 <span style="float:right"><a href="/">☊</a></span>-->
-
-
-
 <ul class="archive">
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
