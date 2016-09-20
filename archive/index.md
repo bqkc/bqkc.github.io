@@ -5,7 +5,7 @@ description: 归档
 ---
 
 
-> 谁人有所谓 <span style="float:right"><a href="/">↰</a></span>
+> 生亦何欢，死亦何苦 <span style="float:right"><a href="/">↰</a></span>
 
 
 
