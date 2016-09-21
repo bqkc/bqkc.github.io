@@ -29,3 +29,19 @@ function getURLParameter(name) {
 </script>
 <!-- <meta property="qc:admins" content="1450027412716375" /> -->
 
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+  $(".menu-button").on("touchstart", function() {
+    $(".menu-wrapper").removeClass("trigger");
+    if ( $(".nav-items").is(":visible") ) {
+	$(".nav-items").velocity("finish")
+		.velocity("slideUp", { delay: 200, duration: 400, easing: "easeInQuad" })
+		.velocity("fadeOut", { delay: 200, duration: 400, easing: "easeInQuad", queue: false });
+	} else {
+		$(".nav-items").velocity("finish")
+		.velocity("slideDown", { delay: 200, duration: 400, easing: "easeOutQuad" })
+		.velocity("fadeIn", { delay: 200, duration: 400, easing: "easeOutQuad", queue: false });
+	}
+  });
+});
+</script>
