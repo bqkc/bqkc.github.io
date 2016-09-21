@@ -25,3 +25,23 @@
     s.parentNode.insertBefore(hm, s);
   })();
 </script>-->
+
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+			$(".site-description").after($("<blockquote>").attr("id", "fortune").css("display", "none"));
+			$(".site-description").after($("<blockquote>").attr("id", "fortune").css("line-height", "1.4rem"));
+
+			$.getJSON( "https://api.github.com/gists/276aaad0e275746dcb3a8fca3b67432e", function(data) {
+
+				fortunes = JSON.parse(data.files["quotes.json"].content);
+				randomFortune = fortunes[ Math.floor( Math.random() * fortunes.length ) ];
+			if ( randomFortune.author === undefined ) {
+					$("#fortune").html( "<p>"+randomFortune.content+"</p>" );
+			} else {
+					$("#fortune").html( "<p>"+randomFortune.content+"</p>"  + "<small>" + randomFortune.author + "</small>");
+			}
+
+			$("#fortune").velocity("slideDown", { duration: 400, easing: "easeOutQuad" });
+		});
+	});
+</script>
