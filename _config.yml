@@ -1,11 +1,11 @@
 permalink: "/:title/"
-title: "痴情之人怎那堪 "
+title: " 痴情之人怎那堪 "
 url: "http://wusuowei.me/"
 feed: "/feed.xml"
 author:
     name: "楚大爷"
     key: "**"
-description: " 没什么想说的"
+description: " 没什么想说的 "
 copyright: "Copyright 楚大爷 2016 by GitHub and Jekyll"
 headdesc: "可笑，可笑，该有多可笑，好好笑"
 headkeys: "thinks"
