@@ -4,6 +4,29 @@ title: Chu|无所谓
 ---
 
 <p><a href="/archive"><img src="/images/index.gif"  style="width:720px;" class="center" /></a></p>
+
+
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+			$(".site-description").after($("<blockquote>").attr("id", "fortune").css("display", "none"));
+			$(".site-description").after($("<blockquote>").attr("id", "fortune").css("line-height", "1.4rem"));
+
+			$.getJSON( "https://api.github.com/gists/276aaad0e275746dcb3a8fca3b67432e", function(data) {
+
+				fortunes = JSON.parse(data.files["quotes.json"].content);
+				randomFortune = fortunes[ Math.floor( Math.random() * fortunes.length ) ];
+			if ( randomFortune.author === undefined ) {
+					$("#fortune").html( "<p>"+randomFortune.content+"</p>" );
+			} else {
+					$("#fortune").html( "<p>"+randomFortune.content+"</p>"  + "<small>" + randomFortune.author + "</small>");
+			}
+
+			$("#fortune").velocity("slideDown", { duration: 400, easing: "easeOutQuad" });
+		});
+	});
+</script>
+
+
 <p style="text-align:center" ><i>谁人有所谓，原来，是，无所谓。</i></p>
 
 <!-- <center><div class="index_center">😂 <a href="/archive">archive</a> 😂 <br> --&gt; <a href="/about">me</a> &lt;--</div></center>
