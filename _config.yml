@@ -1,13 +1,13 @@
 permalink: "/:title/"
-title: "Chu"
+title: "痴情之人怎那堪"
 url: "http://wusuowei.me/"
 feed: "/feed.xml"
 author:
-    name: "Chu"
+    name: "楚大爷"
     key: "**"
-description: "无所谓"
+description: "没什么想说的"
 copyright: "Copyright Chu 2016 by GitHub and Jekyll"
-headdesc: "无所谓"
+headdesc: "可笑，可笑，该有多可笑，好好笑"
 headkeys: "thinks"
 
 redcarpet:
