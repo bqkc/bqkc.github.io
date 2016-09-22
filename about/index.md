@@ -9,7 +9,7 @@ description:  关于
 
 <center><b>求仙问道，不尽虚妄；</b></center>
 
-<center><b>深陷红尘，寂寥一人.</b></center>
+<center><b>深陷红尘，寂寥一人。</b></center>
 
 
 
