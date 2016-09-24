@@ -2,7 +2,7 @@
 layout: post
 title: 我无法抑制的欲望
 category: thinks
-tags: 歇斯底里, 偏执
+tags: 歇斯底里 偏执
 ---
 
 
