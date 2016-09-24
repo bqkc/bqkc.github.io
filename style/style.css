@@ -305,7 +305,7 @@ img {
 }
 
 .forb a:hover, .suggest a:hover {
-  color: #db4937;
+  color: #FF0084;
 }
 
 .title a:link,.title a:visited,.banner a:link,.banner a:visited {
@@ -341,7 +341,7 @@ img {
 }
 
 .content a:hover {
-  color: #db4937;
+  color: #FF0084;
 }
 
 .content .collect_info {
