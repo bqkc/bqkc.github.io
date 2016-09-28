@@ -35,7 +35,5 @@ hello world
 </div>
 ```
 
-ce
 
-<audio src="http://guojing.qiniudn.com/Blue_roses_falling.mp3" controls=""></audio>
 
