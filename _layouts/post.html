@@ -83,10 +83,10 @@
     {% else %}
     <a href="#" class="comment" onclick="return false;">点击评论或查看评论。</a>
     {% endif %}    
-    <div id="disqus_thread"></div>-->
+    <div id="disqus_thread"></div>
+</div>-->
 </div>
-</div>
-
+<!--
 <script type="text/javascript">
     $(document).ready(function(){
         $('#disqus_container .comment').on('click',function(){
@@ -96,7 +96,7 @@
             BYB.includeScript('http://' + disqus_shortname + '.disqus.com/embed.js',function(){$(that).remove()});
         });
 });
-</script>
+</script>-->
 
 </div>
 
@@ -108,4 +108,5 @@
   该文章{{ page.title }}写于{{ page.date | date:"%Y年%m月%d日"}}。
 -->
 </body>
+
 </html>
