@@ -6,7 +6,7 @@ tags: blog
 ---
 
 ```html
-Hello World !   wusuowei.me   en/zh   你好 世界 ！   无所谓么
+Hello World !   wusuowei.me   en/zh   你好 世界 ! 无所谓.么
 ```
 
 ```
