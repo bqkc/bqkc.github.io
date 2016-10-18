@@ -1,6 +1,6 @@
 permalink: "/:title/"
 title: " 岁月变迁，沧海桑田 "
-url: "http://wusuowei.me/"
+url: "http://wusuowei.me"
 feed: "/feed.xml"
 author:
     name: "楚大爷"
