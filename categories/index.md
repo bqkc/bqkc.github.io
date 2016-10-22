@@ -1,9 +1,8 @@
 ---
 layout:  page
-title: tags
 description: 分类
 ---
-活着嘛，活着就好。
+
 
 <div class="tagcloud upper gray">
 {% for cat in site.categories %}
