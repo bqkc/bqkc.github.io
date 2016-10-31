@@ -2,14 +2,14 @@ markdown:         kramdown
 highlighter:      rouge
 permalink:        /:title/
 
-title:            "人生若只如初见"
+title:            "If time could stop at the moment when we first met."
 url:              http://bqkc.github.io
 feed:             /feed.xml
 author:
     name:         Chu
     twitter:      twitter.com/
     key:          
-description:      "我是在说笑么"
+description:      "I was joking?"
 copyright:        "CopryRight Chu 2016 by GitHub and Jekyll"
 #headdesc:         ""
 #headkeys:         "设计,开发,思考,生活,豆瓣,读书,电影,音乐,游记"
